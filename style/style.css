@@ -421,3 +421,30 @@ button:focus{
 ::-webkit-scrollbar-thumb:hover {
     background-color: transparent;
 }
+
+/*--------about price contract--------*/
+
+.text-contract{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 30px;
+}
+
+.container-price-contract{
+    display: flex;
+    align-items: center;
+}
+
+.condacted{
+    margin-bottom: 150px;
+}
+
+.container-img-contract, .container-info-contract{
+    width: 50%;
+}
+
+.container-img-contract img{
+    width: 100%;
+}
