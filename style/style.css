@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb/TitilliumWeb-SemiBold.eot');
+    src: url('../fonts/TitilliumWeb/TitilliumWeb-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TitilliumWeb/TitilliumWeb-SemiBold.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb/TitilliumWeb-SemiBold.woff') format('woff'),
+         url('../fonts/TitilliumWeb/TitilliumWeb-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb/TitilliumWeb-Regular.eot');
+    src: url('../fonts/TitilliumWeb/TitilliumWeb-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TitilliumWeb/TitilliumWeb-Regular.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb/TitilliumWeb-Regular.woff') format('woff'),
+        url('../fonts/TitilliumWeb/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb/TitilliumWeb-Light.eot');
+    src: url('../fonts/TitilliumWeb/TitilliumWeb-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TitilliumWeb/TitilliumWeb-Light.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb/TitilliumWeb-Light.woff') format('woff'),
+        url('../fonts/TitilliumWeb/TitilliumWeb-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    background: #1D1A43;
+}
+
+*, h1{
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-weight: 400;
+}
+
+h2{
+    font-weight: 400;
+    font-family: 'Titillium Web';
+}
+h3, button{
+    font-weight: 600;
+    font-family: 'Titillium Web';
+}
+
+p, a, span{
+     font-weight: 300;
+    font-family: 'Titillium Web';
+}
+
+a{
+    text-decoration: none;
+}
+
+button,
+button:focus{
+    outline: none;
+    border: none;
+    font-family: 'Titillium Web';
+}
+
+
+/*----------------header style------------------*/
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-header{
+    padding: 0px 15px;
+}
+
+.main-header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-menu{
+    margin: 0 17px;
+}
+
+.item-menu:first-child{
+    margin-left: 35px
+}
+
+.item-menu:last-child{
+    margin-right: 35px
+}
+
+.link-menu{
+    font-weight: 600;
+    font-size: 13px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    background: linear-gradient(to right, #FF409A, #C438EF 50%, rgba(255, 255, 255, 0.6) 50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 275ms ease;
+}
+
+
+.link-menu:hover, .active-link {
+  background-position: 0 100%;
+}
+
+.logo-link img{
+    max-width: 213px;
+    width: 100%;
+}
+
+.btn{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, rgba(64, 221, 255, 0.85) 0%, rgba(20, 186, 227, 0.85) 19.24%, rgba(19, 177, 230, 0.85) 68.64%, rgba(17, 170, 223, 0.85) 81.77%, rgba(11, 152, 197, 0.85) 100%);
+    width: 120px;
+    height: 40px;
+    border-radius: 9px;
+}
+
+.btn:hover{
+    background: linear-gradient(135deg, #40DDFF 0%, #14BAE3 19.24%, #13B1E6 68.64%, #11AADF 81.77%, #0B98C5 100%);
+
+}
+
+/*-------------first screen----------*/
+
+.first-screen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title{
+    font-weight: normal;
+    font-size: 47px;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.sub-title{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.big-btn{
+    width: 190px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.big-btn:first-child{
+    margin-right: 30px;
+}
+
+.transparent-btn{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.transparent-btn:hover{
+    color: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.95);
+}
+
+.wrapper-first-screen{
+    margin-bottom: 150px;
+}
+
+/*--------about audit--------*/
+
+.title-block{
+    font-weight: normal;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.info{
+    max-width: 730px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.container-text-info{
+    margin-top: 30px;
+}
+
+.item-info{
+    margin-bottom: 15px;
+}
+
+.before-img{
+    padding-left: 45px;
+    position: relative;
+}
+
+.bell::before{
+    content: '';
+    position: absolute;
+    top: -7px;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: url("../images/Union.svg")no-repeat;
+    background-size: cover;
+}
+
+.small-title{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.info-audit{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 35px;
+}
+
+.item-audit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #272451;
+    border-radius: 25px;
+    max-width: 290px;
+    width: 100%;
+    padding: 30px;
+    max-height: 260px;
+}
+
+.list-audit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.large{
+    max-width: 825px;
+    font-size: 18px;
+}
