@@ -233,7 +233,7 @@ button:focus{
     position: relative;
 }
 
-.bell::before{
+.bell::before, .visibility-off::before, .visibility::before{
     content: '';
     position: absolute;
     top: -7px;
@@ -243,6 +243,18 @@ button:focus{
     height: 30px;
     background: url("../images/Union.svg")no-repeat;
     background-size: cover;
+}
+
+.visibility-off::before{
+    background: url("../images/visibility_off.svg")no-repeat;
+}
+
+.visibility::before{
+    background: url("../images/visibility.svg")no-repeat;
+}
+
+.what-audit{
+    margin-bottom: 150px;
 }
 
 .small-title{
@@ -280,4 +292,21 @@ button:focus{
 .large{
     max-width: 825px;
     font-size: 18px;
+}
+
+.container-types-audit{
+    display: flex;
+    align-items: center;
+}
+
+.item-types{
+    margin-top: 40px;
+}
+
+.container-img-type, .info-about-types{
+    width: 50%;
+}
+
+.container-img-type img{
+    width: 100%;
 }
