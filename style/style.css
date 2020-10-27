@@ -124,6 +124,10 @@ button:focus{
     margin-right: 20px;
 }
 
+.close-menu{
+    display: none;
+}
+
 .item-menu{
     margin: 0 17px;
 }

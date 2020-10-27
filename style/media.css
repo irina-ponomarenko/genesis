@@ -243,16 +243,22 @@
     }
 
     .mobile-menu {
-        display: none;
         position: absolute;
         top: 66px;
         bottom: 0;
-        left: 0;
         right: 0;
+        left: 0;
+        transform: translateX(100%);
         background: #1D1A43;
         height: calc(100vh - 66px);
         z-index: 100000000;
         align-items: flex-start !important;
+        transition: .5s;
+    }
+
+    .active-menu{
+        transform: translateX(0%);
+        transition: .5s;
     }
 
     .mobile-list{
@@ -315,5 +321,29 @@
         margin: 17px;
     }
 
+    .close-menu{
+        display: none;
+        width: 25px;
+        height: 25px;
+        background: url("../images/close.svg")no-repeat;
+        background-size: contain;
+        margin-right: 20px;
+    }
 
+    .toggle-btn .menu-btn{
+        display: none;
+        transition: .5s;
+    }
+
+    .toggle-btn .close-menu{
+        display: block;
+        transition: .5s;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .item-audit {
+        max-width: 730px;
+        width: 100%;
+    }
 }
