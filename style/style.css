@@ -107,6 +107,23 @@ button:focus{
     justify-content: center;
 }
 
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.menu-btn{
+    display: none;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    background: url("../images/burger.svg")no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+}
+
 .item-menu{
     margin: 0 17px;
 }
@@ -213,6 +230,10 @@ button:focus{
     margin-top: 172px;
 }
 
+.mobile-container-btn{
+    display: none;
+}
+
 .container-left-side,
 .container-right-side{
     width: 50%;
@@ -228,6 +249,10 @@ button:focus{
     font-weight: normal;
     font-size: 48px;
     color: rgba(255, 255, 255, 0.95);
+}
+
+.what-audit{
+    margin-bottom: 100px;
 }
 
 .info{
@@ -401,7 +426,7 @@ button:focus{
     overflow: hidden;
 }
 
-.container-avatar image{
+.container-avatar img{
     width: 100%;
 }
 
@@ -616,7 +641,7 @@ button:focus{
     position: absolute;
     bottom: -66px;
     right: 0;
-    background: url("../images/Saly-8.svg")no-repeat;
+    background: url("../images/Saly-8.png")no-repeat;
     width: 154px;
     height: 320px;
     background-size: contain;
