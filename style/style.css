@@ -213,6 +213,15 @@ button:focus{
     margin-top: 172px;
 }
 
+.container-left-side,
+.container-right-side{
+    width: 50%;
+}
+
+.container-right-side img{
+    width: 100%;
+}
+
 /*--------about audit--------*/
 
 .title-block{
@@ -609,7 +618,7 @@ button:focus{
     right: 0;
     background: url("../images/Saly-8.svg")no-repeat;
     width: 154px;
-    height: 337px;
+    height: 320px;
     background-size: contain;
     z-index: 1;
 }
