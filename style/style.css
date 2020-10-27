@@ -428,6 +428,7 @@ button:focus{
     height: 60px;
     border: 9px;
     overflow: hidden;
+    flex: none;
 }
 
 .container-avatar img{
