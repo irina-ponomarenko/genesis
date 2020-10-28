@@ -459,6 +459,15 @@
     .big-btn:first-child {
         margin-right: 0;
     }
+    
+    .menu-list .item-menu .link-menu {
+        font-size: 36px;
+
+    }
+    
+    .mobile-list {
+        margin-top: 20px;
+    }
 
 }
 
