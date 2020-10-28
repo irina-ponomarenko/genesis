@@ -241,6 +241,9 @@
         flex-direction: column;
         width: 100%;
     }
+    
+    .mobile-close-menu{
+        display: none;
 
     .mobile-menu {
         position: absolute;
