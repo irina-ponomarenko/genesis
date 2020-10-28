@@ -796,3 +796,7 @@ button:focus{
     display: flex;
     align-items: center;
 }
+
+.mobile-container-btn{
+    display: none;
+}
