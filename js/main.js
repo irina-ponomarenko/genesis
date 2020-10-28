@@ -44,7 +44,14 @@ $(document).ready(function(){
         $(this).closest('.menu-top').find('.container-menu-btn').removeClass('toggle-btn');
 
     });
-
+    
+    
+     $(".review-btn").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 500);
+    });
 
 });
 
