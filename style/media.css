@@ -599,6 +599,21 @@
     }
 }
 
+@media screen and (max-width: 350px) {
+    .menu-list .item-menu .link-menu {
+        font-size: 31px;
+    }
+    
+    .mobile-btn{
+        height: 50px;
+    }
+    
+    .menu-list .item-menu {
+        margin-bottom: 10px;
+    }
+        
+}
+
 @media screen and (max-width: 320px) {
     .item-errors {
         max-width: 147px;
