@@ -211,6 +211,9 @@ button:focus{
     width: 190px;
     height: 60px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .big-btn:first-child{
@@ -787,4 +790,9 @@ button:focus{
     height: 72px;
     background: #1D1A43;
     z-index: 10000;
+}
+
+.container-btn{
+    display: flex;
+    align-items: center;
 }
