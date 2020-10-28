@@ -234,26 +234,22 @@
         max-width: 100%;
     }
 
-    .container-menu {
+    .container-menu.mobile-menu{
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
         width: 100%;
     }
-    
-    .mobile-close-menu{
-        display: none;
 
     .mobile-menu {
-        position: absolute;
+        position: fixed;
         top: 66px;
         bottom: 0;
         right: 0;
         left: 0;
         transform: translateX(100%);
         background: #1D1A43;
-        height: calc(100vh - 66px);
         z-index: 100000000;
         align-items: flex-start !important;
         transition: .5s;
@@ -276,6 +272,12 @@
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .footer .container-menu{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
     }
 
     .footer .menu-list .item-menu .link-menu {
@@ -342,6 +344,7 @@
         display: block;
         transition: .5s;
     }
+
 }
 
 @media screen and (max-width: 1050px) {
